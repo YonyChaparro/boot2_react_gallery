@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Foto1 } from "./Foto1";
+import { Foto1 } from "./Foto1";  //Revisar esto jajaja :"v
 import { Foto2 } from "./Foto2";
 import { Foto3 } from "./Foto3";
 import { Foto4 } from "./Foto4";
@@ -9,7 +9,7 @@ import { Foto6 } from "./Foto6";
 export const Navigation = () => {
   return (
     <div className="container mt-4 father">
-      <Link to="/covenas1" className="links">
+      <Link to="/foto1" className="links">
         <figure className="image-size">
           <Foto1 />
           <figcaption>Coveñas 1</figcaption>
