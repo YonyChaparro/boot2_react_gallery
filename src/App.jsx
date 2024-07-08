@@ -7,6 +7,7 @@ import { Foto4 } from './components/Foto4';
 import { Foto5 } from './components/Foto5';
 import { Foto6 } from './components/Foto6';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { Navigation } from './components/Navigation';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/foto5" element={<Foto5 />}/>
           <Route path="/foto6" element={<Foto6 />}/>
         </Routes>
+        <Navigation/>
       </BrowserRouter>
     </>
   )
