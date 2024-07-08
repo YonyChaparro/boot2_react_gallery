@@ -1,16 +1,17 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 
 import './App.css'
-import { Covenas1 } from './components/Covenas1'
-import { Covenas2 } from './components/Covenas2'
+import { Foto1 } from './components/Foto1'
+import { Foto2 } from './components/Foto2'
 
 
 function App() {
 
   return (
     <>
-    <Covenas1 />
-    <Covenas2 />
+    <Foto1 />
+    <Foto2 />
+
     </>
   )
 }
