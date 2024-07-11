@@ -1,3 +1,7 @@
+body {
+  background-color: #1e1f20;
+}
+
 #main-img-container {
   width: 100%;
   display: flex;
@@ -77,8 +81,8 @@ figure {
   display: flex;
   flex-direction: column;
   background: #373B44;
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
-  background: linear-gradient(to right, #4286f4, #373B44);
+  background: -webkit-linear-gradient(to right, #1e1f20, #373B44);
+  background: linear-gradient(to right, #1e1f20, #373B44);
   position: relative; /* Necesario para el posicionamiento del figcaption */
   margin: 0; /* Elimina cualquier margen */
   padding: 0; /* Elimina cualquier padding */

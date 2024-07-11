@@ -77,13 +77,18 @@ figure {
   display: flex;
   flex-direction: column;
   background: #373B44;
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
-  background: linear-gradient(to right, #4286f4, #373B44);
+  background: -webkit-linear-gradient(to right, #ffffff, #373B44);
+  background: linear-gradient(to right, #ffffff, #373B44);
   position: relative; /* Necesario para el posicionamiento del figcaption */
   margin: 0; /* Elimina cualquier margen */
   padding: 0; /* Elimina cualquier padding */
 }
 
 h1#title {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color:azure;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+p#title {
+  color:azure;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }

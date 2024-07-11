@@ -15,7 +15,8 @@ function App() {
     <>
       <BrowserRouter>
       <>
-      <h1 id="title" className='text-center my-3'>PROYECTO GALERÍA</h1>
+      <h1 id="title" className='text-center my-3'>GALERÍA</h1>
+      <p id="title" className='text-center my-3'>En ente proyecto estamos aprendiendo a usar componentes con React </p>
       </>
         <div id='main-img-container' className='container'>
         <Routes>
